@@ -1,0 +1,28 @@
+Decision Tree Classifier — Bank Marketing Dataset
+=======================================================
+
+Best hyperparameters: {'model__criterion': 'entropy', 'model__max_depth': 12, 'model__min_samples_leaf': 1}
+Best CV F1-score (5-fold): 0.5249
+
+Test set performance
+-------------------------
+Accuracy : 0.9001
+Precision: 0.5812
+Recall   : 0.5246
+F1-score : 0.5514
+ROC AUC  : 0.8506
+
+Classification report
+-------------------------
+              precision    recall  f1-score   support
+
+          no       0.94      0.95      0.94      7985
+         yes       0.58      0.52      0.55      1058
+
+    accuracy                           0.90      9043
+   macro avg       0.76      0.74      0.75      9043
+weighted avg       0.90      0.90      0.90      9043
+
+Confusion matrix (rows=actual, cols=predicted)
+[[7585  400]
+ [ 503  555]]
